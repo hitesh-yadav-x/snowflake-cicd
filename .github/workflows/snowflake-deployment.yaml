@@ -1,5 +1,5 @@
 name: Snowflake Deployment
-run-name: ${{ github.actor }} started the snowflake ddl deployment for ${{ github.env }} environment
+run-name: ${{ github.actor }} started the snowflake ddl deployment for ${{ github.ref_name }} environment
 on:
     push:
         branches: [dev]
