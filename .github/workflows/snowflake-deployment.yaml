@@ -12,5 +12,5 @@ jobs:
             options: --cpus 1
         steps:
             - name: check_env
-              run: (liquibase)
+              run: (liquibase --version)
 
