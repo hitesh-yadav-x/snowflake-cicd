@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>  
 <databaseChangeLog
     xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
     xmlns:pro="http://www.liquibase.org/xml/ns/pro">
 
-
+    <includeAll path="ddl_scripts/edw" relativeToChangelogFile="true"/>
 </databaseChangeLog>
