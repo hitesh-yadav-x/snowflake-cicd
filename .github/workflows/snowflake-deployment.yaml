@@ -9,7 +9,7 @@ jobs:
         environment: dev
         runs-on: ubuntu-latest
         container:
-            image: liquibase/liquibase:4.27
+            image: liquibase/liquibase:snowflake
             options: --cpus 1
         steps:
             - name: check_env
