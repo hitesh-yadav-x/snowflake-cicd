@@ -12,6 +12,7 @@ jobs:
             image: liquibase/liquibase:snowflake
             options: --cpus 1
         steps:
+            - uses: actions/checkout@v4
             - name: check_env
               env:
                 SF_URL: ${{ secrets.SF_URL }}
