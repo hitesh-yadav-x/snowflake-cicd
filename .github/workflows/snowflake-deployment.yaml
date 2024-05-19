@@ -9,7 +9,7 @@ jobs:
         environment: dev
         runs-on: ubuntu-latest
         container:
-            image: liquibase/liquibase:snowflake
+            image: liquibase/liquibase:4.27
             options: --cpus 1
         steps:
             - uses: actions/checkout@v4
